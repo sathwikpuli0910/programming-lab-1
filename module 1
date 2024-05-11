@@ -1,0 +1,14 @@
+def print_border():
+    print("*" * 36)
+
+def print_message(message):
+    print("*" + "  " + message.center(32) + "  " + "*")
+
+# Top border
+print_border()
+
+# Message line
+print_message("The stars shine in Greenville.")
+
+# Bottom border
+print_border()
